@@ -33,12 +33,9 @@ I learnt that I can do something if I put my time and efforts into it. And I am 
 
 ## Author
 
-- Website - [Snehasikder](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
+- Website - [Snehasikder](https://github.com/Snehasikder)
+- Frontend Mentor - [@Snehasikder](https://www.frontendmentor.io/profile/Snehasikder
+)
 ## Acknowledgments
 
 I acknowledge youtube, websites like- w3school, freecodecamp, the odin project for helping me on this journey to learning something new. Arigatogozaimasu!!!
