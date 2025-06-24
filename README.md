@@ -32,9 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learnt that I can do something if I put my time and efforts into it. And I am pround of what I was able to pull of mostly from scratch and thanks to frontend mentor for their designed challange, I really learnt something and that made my day!!
 
 ```html
 
