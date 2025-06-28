@@ -1,55 +1,95 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body{
+body {
   background-image: url("b.avif");
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.a{
-    /* background-color: #bcd7e1; */
-    background-color: hsl(212, 45%, 89%);
-    margin-top: 50px;
-    margin-left:120px;
-    margin-right: 120px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 460px;
-    width:80%;
-    box-sizing: border-box;
-    box-shadow: 5px 7px 9px rgb(207, 206, 206);
+
+/* Container wrapper */
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
 }
-.b{ box-sizing: border-box;
-    height: fit-content;
-    max-width:320px;
-    border-radius: 12px;
-    padding:9px;
-    background-color:white ;
-    margin-top: 200px;
-    margin-bottom: 220px;
-    box-sizing: border-box;
-    box-shadow: 5px 7px 9px rgb(194, 193, 193);
+
+/* Card component */
+.b {
+  width: min(90%, 320px);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 5px 7px 9px rgb(194, 193, 193);
 }
-.i{
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
+
+/* Image wrapper */
+.i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
-.t{ 
-    padding:2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-style: Regular;
+
+.c {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
 }
-h6{
-    color:rgb(97, 96, 96);
+
+/* Text styling */
+h5, h6 {
+  text-align: center;
+  margin-bottom: 0.75rem;
 }
-.c{
-    border-radius: 7px;
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: rgb(97, 96, 96);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Enhancements */
+@media (min-width: 768px) {
+  .b {
+    width: 350px;
+    padding: 2rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.05rem;
+  }
 }
